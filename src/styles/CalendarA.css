@@ -1,0 +1,40 @@
+.calendar-container {
+  display: flex;
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+.time-slots {
+  min-width: 100px; /* Adjust as needed */
+}
+
+.time-slot {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.calendar-grid {
+  display: flex;
+  flex-wrap: nowrap; /* Ensure days of the week are in a single row */
+}
+
+.calendar-day {
+  flex: 1;
+  min-width: 100px; /* Adjust as needed */
+  border-right: 1px solid #ddd;
+}
+
+.day-header {
+  background-color: #f0f0f0;
+  padding: 5px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item {
+  padding: 1px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
