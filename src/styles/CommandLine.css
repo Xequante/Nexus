@@ -1,0 +1,15 @@
+/* CommandLine.css */
+
+.command-line {
+    height: 50px; /* Example height */
+    background-color: #f0f0f0;
+  }
+  
+  .command-line input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
