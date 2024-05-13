@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/CommandLine.css';
+import { AutoComplete } from 'primereact/autocomplete';
 
 
 function CommandLine() {
